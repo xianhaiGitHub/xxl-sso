@@ -69,6 +69,7 @@ public class SsoWebLoginHelper {
      */
     public static XxlSsoUser loginCheck(HttpServletRequest request, HttpServletResponse response){
 
+
         String cookieSessionId = CookieUtil.getValue(request, Conf.SSO_SESSIONID);
 
         // cookie user
